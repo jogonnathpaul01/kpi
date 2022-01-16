@@ -1,0 +1,40 @@
+*body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.logo img {
+  width: 260px;
+  height: 40px;
+}
+.nav-bar {
+  margin-top: 15px;
+}
+.nav-bar a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  color: black;
+}
+.nav-bar :hover {
+  color: rgba(0, 255, 55, 0.603);
+}
+#id-one {
+  border: 1px solid black;
+}
+.mq-detail {
+  font-size: 18px;
+}
+#frist-one {
+  font-weight: 700;
+  color: #a52a2a;
+}
+#second-one {
+  color: #008000;
+}
